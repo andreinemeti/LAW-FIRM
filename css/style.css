@@ -112,7 +112,7 @@ ul.dropdown-menu {
 
 .landing-page {
 		padding-top:50px;
-		 background:url('https://qph.ec.quoracdn.net/main-qimg-5fa1a52f4b4dae7ef1289d417357a411-c') no-repeat;
+		 background:url('../img/background.jpg') no-repeat;
 		background-size:cover;
 		height:100vh;
 		min-height:600px;
@@ -235,7 +235,7 @@ h6 {
 }
 
 .shaped-div {
-	background:url("https://i1.trekearth.com/photos/128409/dscf0274.jpg");
+	background:url("../img/cluj-background.jpg");
 	background-size:cover;
   	height: 500px;
   	-webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
@@ -314,7 +314,7 @@ font-weight:bold;}
  position:relative;
 }
 .img-left {
-	background:url('https://www.trumpf.com/filestorage/TRUMPF_Master/_processed_/1/f/csm_responsibility-employees-keyvisual_f83eea2c6d.jpg');
+	background:url(../img/overlay1.jpg);
 	background-size:cover;
 	height:470px;
 	border-radius:7px;
@@ -332,20 +332,20 @@ font-weight:bold;}
 }
 
 .img-right {
-	background:url('https://marketingland.com/wp-content/ml-loads/2017/05/celebrate-win-happy-employees-team-ss-1920-800x450.jpg');
+	background:url(../img/overlay2.jpg);
 	background-size:cover;
 	height:470px;
 	border-radius:7px;
 }
 
 #corporate { /*third image*/
-		background:url("https://cdn.pbrd.co/images/GYu95j1.jpg") center;
+		background:url("../img/overlay3.jpg") center;
 	background-size:cover;
 
 }
 
 #asset {
-	background:url("https://cdnwp.tonyrobbins.com/wp-content/uploads/2016/02/07143738/getting-life-coaching-e1478726266575.jpg") center;
+	background:url("../img/overlay4.jpg") center;
 	background-size:cover;
 }
 
@@ -577,7 +577,7 @@ clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
 	margin:20px 0 160px 0;
 }
 .relative {
-background:url("https://cdn.pbrd.co/images/GYkZG8t.png") center no-repeat;
+background:url("../img/meeting-clipart.png") center no-repeat;
 background-size:contain;
 height:400px;
 position:relative;
@@ -834,7 +834,6 @@ a.logo {
 	width:initial;
 }
 }
-
 
 
 @keyframes blink {
