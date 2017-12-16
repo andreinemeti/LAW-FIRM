@@ -777,7 +777,11 @@ cursor:pointer;
 
 
 @media screen and (max-width:480px) {
+.overflow {
 
+	overflow-y:scroll;
+
+}
 	.number-clients {
 		height:300px;
 
