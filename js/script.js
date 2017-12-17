@@ -65,38 +65,38 @@
 
 //Auto show elements on landing page 
 $(window).on('load', function(){
-    $('.hide1').addClass('show');
-    $('.hide2').addClass('show');
-    $('.hide3').addClass('show');
-    $('.hide4').addClass('show');
-    $('.hide5').addClass('show');
+    $('.landing-page .hide1').addClass('show');
+    $('.landing-page .hide2').addClass('show');
+    $('.landing-page .hide3').addClass('show');
+    $('.landing-page .hide4').addClass('show');
+    $('.landing-page .hide5').addClass('show');
 });
 
 
-
+ //animations logic
 $(window).scroll(function() {
     var wScroll = $(this).scrollTop();
-    
-    //how it work scroll function
-    
-    if( wScroll > $('.hide1').offset().top - 250){
+   
+    if( wScroll > $('.hide1').offset().top - 100){
         $('.hide1').addClass('show');
 
     }
 
-  if( wScroll > $('.hide2').offset().top - 250){
+    if( wScroll > $('.hide2').offset().top - 100){
         $('.hide2').addClass('show');
     }
 
-      if( wScroll > $('.hide3').offset().top - 250){
+      if( wScroll > $('.hide3').offset().top - 100){
         $('.hide3').addClass('show');
     }
 
-      if( wScroll > $('.hide4').offset().top - 250){
+      if( wScroll > $('.hide4').offset().top + 220){
         $('.hide4').addClass('show');
     }
 
-   
-    
+       if( wScroll > $('.hide5').offset().top - 600){
+        $('.hide5').addClass('show');
+    }
+ 
     
 });

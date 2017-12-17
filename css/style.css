@@ -2,6 +2,11 @@
 
 body {
 		font-family:Roboto;
+
+}
+
+body div.landing-page:first-child {
+		overflow:hidden;
 }
 
 /*ANIMATIONS*/
@@ -33,13 +38,18 @@ body {
 
 /* from top to bottom */
 .hide4 {
-	transition-delay: .9s;
+	transition-delay: .3s;
+}
+
+.hide5 {
+	transition-delay: .3s;
 }
 
 
 
+
 /* this is for sroll function script.js */
-.hide1.show, .hide2.show , .hide3.show, .hide4.show{
+.hide1.show, .hide2.show , .hide3.show, .hide4.show, .hide5.show{
 	opacity: 1;
 	transform: translate(0,0);
 }
@@ -168,6 +178,7 @@ ul.dropdown-menu {
   background: linear-gradient(to right, #6a3093, #4844FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity:0.9;
   display:block;
+
 }
 
 
@@ -225,6 +236,7 @@ background:rgb(50,62,73);
 	background:rgb(19,158,200);
 	color:white;
 	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -261,7 +273,7 @@ font-weight:100;
 
 .bottom-positioned {
 position:absolute;
-bottom:1rem;
+bottom:2rem;
 left:0;
 right:0;
 }
@@ -272,6 +284,7 @@ h6 {
 
 .bottom-positioned a {
 	animation: blink 1s linear infinite;
+	animation-delay:2s;
 }
 
 .shaped-div {
@@ -310,6 +323,7 @@ font-weight:bold;}
 .scroll {
 	overflow-y:scroll;
 }
+
 .about h2 {
 	margin-top:60px;
 	font-weight:100;
@@ -369,6 +383,7 @@ font-weight:bold;}
 	left:0;
 	bottom:0;
 	right:0;
+
 }
 
 .img-right {
@@ -408,12 +423,14 @@ font-weight:bold;}
     bottom:0;
     margin:auto 65%;
 
+
 }
 .overlap.second {
     position:absolute;
 	top:0;
     bottom:0;
     margin:auto -75%;
+
 
 }
 
@@ -805,6 +822,7 @@ cursor:pointer;
 }
 
 @media screen and (max-width: 431px) {
+
 	.social-links, .first-col, .second-col {
 		float:left;
 		width:100%;
