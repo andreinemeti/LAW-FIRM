@@ -1,7 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+
 body {
 		font-family:Roboto;
+}
 
+/*ANIMATIONS*/
+
+/* this is for scroll function script.js */
+
+.hide1, .hide2, .hide3, .hide4, .hide5 {
+	opacity:0;
+	transition:1.5s;
+}
+
+/*from left to right*/
+.hide1 {
+	transform: translate(-50px, 0);
+	transition-delay: .5s;
+}
+
+/*from right to left*/
+.hide2 {
+	transform: translate(50px, 0);
+	transition-delay: .8s;
+}
+
+/* from bottom to top */
+.hide3 {
+	transform: translate(0, 100px);
+	transition-delay: .9s;
+}
+
+/* from top to bottom */
+.hide4 {
+	transition-delay: .9s;
+}
+
+
+
+/* this is for sroll function script.js */
+.hide1.show, .hide2.show , .hide3.show, .hide4.show{
+	opacity: 1;
+	transform: translate(0,0);
 }
 
 

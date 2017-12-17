@@ -72,19 +72,19 @@
         <!-- end row -->
         <div class="row color-white margin-top">
             <div class="col-sm-8 col-sm-offset-2 text-center vertical-align">
-                <h6>PROTECT YOUR BUSINESS.</h6>
-                <p class="landing">You deserve the best lawyers</p>
-                <h6>FOR COMPANIES AND CORPORATIONS</h6>
+                <h6 class="hide1">PROTECT YOUR BUSINESS.</h6>
+                <p class="landing hide2">You deserve the best lawyers</p>
+                <h6 class="hide1">FOR COMPANIES AND CORPORATIONS</h6>
             </div>
         </div>
         <div class="row color-white margin-bottom">
             <div class="col-sm-6 col-sm-offset-3 text-center">
-                <h4>Our certified lawyers work to achieve a fair and timely resolution of the legal issues in your case.</h4>
+                <h4 class="hide3">Our certified lawyers work to achieve a fair and timely resolution of the legal issues in your case.</h4>
             </div>
         </div>
         <div class="row color-white">
             <div class="col-sm-2 col-sm-offset-5 text-center bottom-positioned">
-                <h6 class="font-weight">SCROLL DOWN</h6>
+                <h6 class="font-weight hide4">SCROLL DOWN</h6>
                 <a href="#about-us" class="glyphicon glyphicon-menu-down color-white"></a>
             </div>
         </div>
@@ -355,64 +355,7 @@
     </script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $(".slick-carousel").slick({
-            slidesToShow: 6,
-            slidesToScroll: 2,
-            autoplay: true,
-            infinite: true,
-
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 2
-                }
-            }]
-        });
-    });
-    </script>
-    <script>
-    $('.overflow').hover(function() {
-        $(this).toggleClass('scroll');
-    });
-
-
-    $('.dropdown').on('show.bs.dropdown', function() {
-        $(this).find('.dropdown-menu').slideDown();
-    });
-
-    // Add slideUp animation to Bootstrap dropdown when collapsing.
-    $('.dropdown').on('hide.bs.dropdown', function() {
-        $(this).find('.dropdown-menu').slideUp();
-    });
-
-
-    //slow scrolling when clicking on links
-    $(document).ready(function() {
-        $("a").on('click', function(event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function() {
-                    window.location.hash = hash;
-                });
-            }
-        });
-    });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
