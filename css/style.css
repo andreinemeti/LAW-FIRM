@@ -48,7 +48,7 @@ body div.landing-page:first-child {
 
 
 
-/* this is for sroll function script.js */
+/* this is for scroll function script.js */
 .hide1.show, .hide2.show , .hide3.show, .hide4.show, .hide5.show{
 	opacity: 1;
 	transform: translate(0,0);
@@ -344,24 +344,35 @@ font-weight:bold;}
   outline: 1px solid red;
 }
 
-
-
 .page-2 {
 	background:rgb(242,245,248);
 
 }
 
-.page-2 h2 {
+.page-2 h2, #termsAndConditions h2, #terms h2, #cookies h2, #privacy h2 {
 	margin:80px 0 30px 0;
 	letter-spacing:2px;
 	font-weight:100;
 }
 
-.page-2 .col-sm-6 p {
+.page-2 .col-sm-6 p, #termsAndConditions p, #terms p, #cookies p, #privacy p {
 	color:#848687;
 	font-size:17px;
 	letter-spacing:1px;
+}
+#termsAndConditions p, , #terms p, #cookies p, #privacy p {
+font-family:'Open Sans';
+}
+#termsAndConditions, #terms, #cookies, #privacy{
+	padding:50px 15px;
 
+}
+
+p.nobackground {
+	background:none;
+	box-shadow:none;
+	font-size:50px;
+	margin-top:100px;
 }
 
 .img-left, .img-right {
@@ -383,7 +394,6 @@ font-weight:bold;}
 	left:0;
 	bottom:0;
 	right:0;
-
 }
 
 .img-right {
@@ -891,6 +901,11 @@ a.logo {
 .btn.btn-warning.btn-lg.right, .btn.btn-warning.btn-lg.left{
 	width:initial;
 }
+
+p.nobackground {
+	font-size:32px;
+}
+
 }
 
 
