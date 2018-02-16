@@ -17,7 +17,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
@@ -61,10 +61,10 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right border-right">
-                <a class="btn btn-warning btn-lg left" href="#">
+                <a id="auditorsLogin" class="btn btn-warning btn-lg left" href="#">
                     <span>AUDITORS</span>
                 </a>
-                <a class="btn btn-warning btn-lg right" href="#">
+                <a id="clientsLogin" class="btn btn-warning btn-lg right" href="#">
                     <span>CLIENTS</span>
                 </a>
             </div>
@@ -132,14 +132,20 @@
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 img-left" id="audit">
-                <div class="overlap first hide4">
+                <div class="overlap first hide4" id="first-child">
                     <h6>AUDITING &amp; CONSULTING</h6>
                     <p class="strong">Training courses, research, consultancy &amp; many others</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <button type="button" class="btn btn-lg btn-success"><i class="fa fa-play" aria-hidden="true"></i><span> PLAY VIDEO</span></button>
-                    <h6 class="hover-underline"><a href="#">Read More</a></h6>
+                    <h6 class="hover-underline"><a id="readMore" href="javascript:void(0)">Read More</a></h6>
+                     <p class="hidden-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12 img-right" id="tax">
@@ -151,12 +157,12 @@
                     </p>
                     <p>FOLLOW US ON:</p>
                     <div class="social">
-                        <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/Random-Page-967648783292258/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/yrandomuser" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/+RandomOrg" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/user/gryherobo" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
                     </div>
-                    <h6 class="hover-underline"><a href="#">Read More</a></h6>
+                 
                 </div>
                 <!-- end overlap second -->
             </div>
@@ -171,10 +177,10 @@
                     <h6>CORPORATE FINANCE</h6>
                     <p class="strong">Training courses, research, consultancy &amp; many others</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <button type="button" class="btn btn-lg btn-success"><i class="fa fa-play" aria-hidden="true"></i><span> PLAY VIDEO</span></button>
-                    <h6 class="hover-underline"><a href="#">Read More</a></h6>
+              
+              
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12 img-right" id="asset">
@@ -182,16 +188,8 @@
                     <h6>ASSET PLANNING</h6>
                     <p class="strong">Tax, Antitrust, Business and Securities &amp; more</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p>FOLLOW US ON:</p>
-                    <div class="social">
-                        <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
-                    </div>
-                    <h6 class="hover-underline"><a href="#">Read More</a></h6>
+                        <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>   
                 </div>
                 <!-- end overlap second -->
             </div>
@@ -200,7 +198,7 @@
         <!-- end row -->
         <div class="row">
             <div class="col-sm-12 text-center">
-                <button type="button" class="btn btn-lg view-more"><span>VIEW MORE </span></button>
+                <button type="button" class="btn btn-lg view-more"><span>READ MORE </span></button>
             </div>
             <!-- end col-sm-12 -->
         </div>
@@ -296,10 +294,10 @@
                 <div class="col-lg-6 social-links text-center">
                     <a href="index.html#home"><img src="img/logo.png" alt="company logo" height="30"> ABC  <span class="font-weight">LAW AGENCY</span></a>
                     <div class="social">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/Random-Page-967648783292258/" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/yrandomuser" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                           <a href="https://plus.google.com/+RandomOrg" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/user/gryherobo" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <!-- END COL-LG-6 -->
@@ -317,7 +315,7 @@
                         <li><a href="terms.html">Terms and conditions</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="cookies.html">About Cookies</a></li>
-                        <li onclick="alert('Not implemented yet')"><a href="#">RSS</a></li>
+                        <li onclick="alert('Not implemented yet')"><a href="javascript:void(0)">RSS</a></li>
                     </ul>
                 </div>
                 <!-- end second-col -->
@@ -344,6 +342,16 @@
             <!--  end col-lg-4 -->
         </div>
         <!-- end main row -->
+        <div id="clients">
+        	<i class="fa fa-close"></i>
+        	<form action ="" method="POST">
+        		<legend>Please login into your account</legend>
+        		<input type="text" name="username" id="username" placeholder="Username">
+        		<input type="password" name="password" id="password" placeholder="Password">
+        		<input type="submit" class="btn btn-danger" value="Login" onclick="alert('You dont have an account')">
+        	</form>
+        	<a href="#">Forgot your password?</a>
+        </div>
     </div>
     <!-- end container fluid - footer -->
     <!-- Bootstrap core JavaScript

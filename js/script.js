@@ -100,3 +100,32 @@ $(window).scroll(function() {
  
     
 });
+
+// login popup 
+
+$("#clientsLogin, #auditorsLogin").click(function() {
+$("#clients").show('easing');
+});
+
+$("#clients .fa-close").click(function() {
+$("#clients").hide('easing');
+});
+
+
+//read more button
+
+$("#readMore").click(function() {
+ if($(".hidden-p").css('display') == 'none') {
+        $("#readMore").text('Read less');
+        $(".hidden-p").show('easing');
+        $("#first-child").css("overflow-y", "scroll");
+    }
+    else if ($(".hidden-p").css('display') == 'block') {
+        $("#readMore").text('Read more');
+        $(".hidden-p").hide('easing');
+        $(".overlap.first").css("overflow-y", "hidden");
+    }
+});
+
+
+
